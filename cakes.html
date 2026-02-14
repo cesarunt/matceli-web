@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Matceli | Tortas</title>
+  <link rel="stylesheet" href="css/styles_chatgpt.css" />
+</head>
+
+<body>
+  <div class="topbar">
+    <p>Pedidos y delivery con 48h de anticipación</p>
+  </div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <button class="icon-btn header__menu" aria-label="Abrir menú">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <img src="images/matceli-logoweb-sm01.png" alt="Matceli Pastelería" class="brand__logo">
+      </a>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="index.html#inicio">Inicio</a>
+        <a href="index.html#catalogo" class="active">Catálogo</a>
+        <a href="index.html#proceso">Proceso de Compra</a>
+        <a href="index.html#clientes">Clientes</a>
+        <a href="index.html#contacto">Contacto</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="icon-btn" aria-label="Cuenta">👤</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Breadcrumb + título -->
+    <section class="section">
+      <div class="container">
+        <div class="crumbs">
+          <a href="index.html#inicio">Inicio</a>
+          <span>›</span>
+          <a href="index.html#catalogo">Catálogo</a>
+          <span>›</span>
+          <strong>Tortas</strong>
+        </div>
+
+        <header class="section__head">
+          <div>
+            <h2>Tortas temáticas</h2>
+            <p class="muted">Explora diseños y solicita tu personalización (tema, colores, porciones, fecha).</p>
+          </div>
+
+          <div class="filters">
+            <select aria-label="Filtrar por ocasión">
+              <option value="all">Toda ocasión</option>
+              <option value="cumple">Cumpleaños</option>
+              <option value="boda">Bodas</option>
+              <option value="baby">Baby Shower</option>
+              <option value="corp">Corporativo</option>
+            </select>
+            <select aria-label="Filtrar por niveles">
+              <option value="all">Niveles</option>
+              <option value="1">1 piso</option>
+              <option value="2">2 pisos</option>
+              <option value="3">3 pisos</option>
+            </select>
+          </div>
+        </header>
+
+        <!-- Grid productos -->
+        <div class="grid products products--category">
+          <article class="product">
+            <div class="product__img" style="background-image:url('images/productos/torta-osos2pisos.jpeg')" role="img" aria-label="Torta temática 1"></div>
+            <div class="product__body">
+              <h3>Torta de Ositos (2 pisos)</h3>
+              <p class="muted">Masa Fondant • Personalizable</p>
+              <div class="product__actions">
+                <a class="btn btn--quote" href="index.html#contacto">Cotizar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="product__img" style="background-image:url('images/productos/torta-calabaza1piso.jpg')" role="img" aria-label="Torta temática 1"></div>
+            <div class="product__body">
+              <h3>Torta Minecraft (2–3 pisos)</h3>
+              <p class="muted">Masa Fondant • Personalizable</p>
+              <div class="product__actions">
+                <a class="btn btn--quote" href="index.html#contacto">Cotizar</a>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="product">
+            <div class="product__img" style="background-image:url('images/productos/torta-osos3pisos.jpg')" role="img" aria-label="Torta temática 2"></div>
+            <div class="product__body">
+              <h3>Torta de Ositos (3 pisos)</h3>
+              <p class="muted">Masa Fondant • Personalizable</p>
+              <div class="product__actions">
+                <a class="btn btn--quote" href="index.html#contacto">Cotizar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="product__img" style="background-image:url('images/productos/torta-minecraft2pisos.jpg')" role="img" aria-label="Torta temática 1"></div>
+            <div class="product__body">
+              <h3>Torta Minecraft (2–3 pisos)</h3>
+              <p class="muted">Masa Fondant • Personalizable</p>
+              <div class="product__actions">
+                <a class="btn btn--quote" href="index.html#contacto">Cotizar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="product__img" style="background-image:url('images/productos/torta-bodas3pisos.jpg')" role="img" aria-label="Torta temática 3"></div>
+            <div class="product__body">
+              <h3>Torta de Bodas (3 pisos)</h3>
+              <p class="muted">Masa Fondant • Personalizable</p>
+              <div class="product__actions">
+                <a class="btn btn--quote" href="index.html#contacto">Cotizar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="product__img" style="background-image:url('images/productos/torta-construccion2pisos.jpeg')" role="img" aria-label="Torta temática 4"></div>
+            <div class="product__body">
+              <h3>Torta de Construcción (2 pisos)</h3>
+              <p class="muted">Masa Fondant • Acabado elegante</p>
+              <div class="product__actions">
+                <a class="btn btn--quote" href="index.html#contacto">Cotizar</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="muted">© 2026 MATCELI, todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
